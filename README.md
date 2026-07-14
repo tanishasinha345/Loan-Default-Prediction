@@ -3,7 +3,7 @@
 ## Project Overview
 This project develops a machine learning model to predict whether a borrower is likely to default on a loan. By leveraging historical loan data and machine learning techniques, this project builds accurate, explainable, and scalable loadn default prediction system.
 
-# Dataset Description
+## Dataset Description
 The dataset contains historical information about loan applicants and their repayment status.
 Features Include:
 - Applicant Income
@@ -22,10 +22,10 @@ Features Include:
 - **0 -> Non-Default**
 - **1 -> Default**
 
-# Project Overflow
+## Project Overflow
 Data collection -> Data cleaning -> EDA -> Feature Engineering -> Categorical Encoding -> Train Test Split -> SMOTE -> Model Training -> Hyperparameter Tuning -> Cross Validation -> Model Evaluation -> SHAP Explainability 
 
-#  Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 EDA was performed to understand the structure and distribution of the dataset.
 The analysis included:
@@ -38,7 +38,7 @@ The analysis included:
 - Correlation analysis
 - Feature relationship analysis
 
-#  Feature Engineering
+##  Feature Engineering
 
 Several preprocessing techniques were applied before model training:
 
@@ -51,7 +51,7 @@ Several preprocessing techniques were applied before model training:
 
 These steps improved model performance and data quality.
 
-#  Handling Class Imbalance (SMOTE)
+##  Handling Class Imbalance (SMOTE)
 
 Loan default datasets are typically imbalanced, with significantly fewer default cases than non-default cases.
 
@@ -64,7 +64,7 @@ Benefits of using SMOTE:
 - Improves recall for default prediction
 - Enhances overall classification performance
 
-#  Models Used
+##  Models Used
 
 Multiple machine learning algorithms were trained and compared:
 
@@ -75,7 +75,7 @@ Multiple machine learning algorithms were trained and compared:
 
 Each model was evaluated using the same training pipeline to identify the best-performing classifier.
 
-# Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Hyperparameter optimization was performed to improve model performance.
 
@@ -87,7 +87,7 @@ The tuning process optimized parameters such as:
 
 This resulted in better generalization and improved predictive accuracy.
 
-#  Cross-Validation
+##  Cross-Validation
 
 To ensure model robustness and reduce overfitting, **Stratified K-Fold Cross Validation** was implemented.
 
@@ -97,7 +97,7 @@ Benefits include:
 - Produces more reliable performance estimates
 - Reduces variance caused by a single train-test split
 
-#  Evaluation Metrics
+##  Evaluation Metrics
 
 Models were evaluated using multiple classification metrics:
 
@@ -111,7 +111,7 @@ Models were evaluated using multiple classification metrics:
 
 Using multiple evaluation metrics provides a more comprehensive assessment, especially for imbalanced datasets.
 
-#  SHAP Explainability
+##  SHAP Explainability
 
 To improve model transparency, **SHAP (SHapley Additive exPlanations)** was used.
 
@@ -124,7 +124,7 @@ SHAP helps explain:
 
 This makes the model more trustworthy and suitable for real-world financial applications.
 
-#  Results
+##  Results
 
 The project successfully demonstrates an end-to-end loan default prediction pipeline.
 
@@ -173,7 +173,7 @@ The final selected model provides strong predictive performance while maintainin
 - XGBoost 
 
 
-# Future Improvements
+## Future Improvements
 
 Possible enhancements include:
 
